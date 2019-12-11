@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Bomb&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="container">
+        
+    </div>
+    <!-- Header -->
+    <header>
+            <div class="container">
+                <h3>Work To-Dos!</h3>
+
+                <p>Enter text into the input field to add items to your list</p>
+
+                <p class="p">Click the item to mark it as complete!</p>
+
+                <p class="pp">Click the "<span style="color: red;">X</span>" to remove your item from the list</p>
+
+
+                <div class="input-group mb-3">
+                    <input id="userInput" type="text" class="form-control" placeholder="Enter Your to-do" aria-label="Recipient's username" aria-describedby="button-addon2" onclick="this.value=''" style="height: 46px;">
+                    <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="addItem"><i class="fas fa-pen-square fa-2x"></i></button>
+                    </div>
+                </div>
+
+                  <div class="margin">
+                        <div id="list">
+                            <hr style="display: none;" id="hr">
+                        </div>
+                  </div>
+
+            </div>
+
+            
+    </header>
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

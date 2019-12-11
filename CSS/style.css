@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(28, 171, 207, 0.507);
+}
+
+h3 {
+    margin-top: 25px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 25px;
+    color: yellow;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+.p {
+    color: rgb(59, 204, 2);
+    font-size: 20px;
+}
+
+.pp {
+    color: rgb(19, 52, 102);
+    font-size: 20px;
+}
+
+.margin {
+    margin-top: 35px;
+}
+
+.list {
+    color: white;
+}
+
